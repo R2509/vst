@@ -1,0 +1,5 @@
+tasks:
+  - name: install
+    command: |
+      pip install dawdreamer
+      apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
