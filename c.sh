@@ -5,7 +5,7 @@ git push
 echo "exit workspace?"
 read ws
 if ws == "y" or ws == "yes" then
-    gp stop
+    gp stop;
 fi;
 
 echo "exit this terminal?"
