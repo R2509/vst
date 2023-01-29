@@ -4,7 +4,7 @@ git push
 
 echo "exit workspace?"
 read ws
-if [ws == "y" or ws == "yes"]; then
+if [$ws == "y" or $ws == "yes"]; then
     gp stop;
 fi
 
