@@ -3,8 +3,9 @@ git commit -nm bruh
 git push
 
 echo "exit workspace?"
-read "${ws}"
-if [$ws == "y" or $ws == "yes"]; then
+read
+
+if ["$($REPLY)" == "y" or $REPLY == "yes"]; then
     gp stop;
 fi
 
