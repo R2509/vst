@@ -5,12 +5,12 @@ git push
 echo "exit workspace?"
 read
 
-if ["${REPLY}" == "y" or $REPLY == "yes"]; then
+if ["$REPLY" == "y" or "$REPLY" == "yes"]; then
     gp stop;
 fi
 
 echo "exit this terminal?"
-read ws
-if [$ws == "y" or $ws == "yes"]; then
+read
+if ["$REPLY" == "y" or "$REPLY" == "yes"]; then
     exit;
 fi
