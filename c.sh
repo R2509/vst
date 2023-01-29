@@ -6,11 +6,10 @@ echo "exit workspace?"
 read ws
 if ws == "y" or ws == "yes" then
     gp stop;
-fi;
+fi
 
 echo "exit this terminal?"
 read ws
-if $ws == "y" or $ws == "yes"
-then
+if $ws == "y" or $ws == "yes" then
     exit
 fi
